@@ -77,6 +77,7 @@ def main_select():
 
 
 def login_ahs():
+    os.system('clear')
     try:
         token = open("access_token.txt", "r").read()
         menu_qais()
@@ -317,6 +318,7 @@ def qaiser_select():
     menu_qais()
 
 def ch_pass():
+    os.system('clear')
     try:
         token = open("access_token.txt", "r").read()
         menu()
