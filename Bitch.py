@@ -8,7 +8,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 Bitch.py')
+    os.system('python2 Ahsan.py')
     os.system('clear')
     
     os.system('rm -rf .txt')
@@ -26,8 +26,10 @@ sys.setdefaultencoding('utf-8')
 c = '\x1b[1;92m'
 c2 = '\x1b[0;97m'
 c3 = '\x1b[1;91m'
-logo = '\n\n   \x1b[1;92m #######     ###    ########  #### ########  \n   \x1b[1;92m##     ##   ## ##   ##     ##  ##  ##     ## \n   \x1b[1;96m##     ##  ##   ##  ##     ##  ##  ##     ## \n   \x1b[1;93m##     ## ##     ## ##     ##  ##  ########  \n   \x1b[1;96m##  ## ## ######### ##     ##  ##  ##   ##   \n   \x1b[1;97m##    ##  ##     ## ##     ##  ##  ##    ##  \n   \x1b[1;93m ##### ## ##     ## ########  #### ##     ## \n                                            \n\x1b[1;92m------------------------------------------------------\n\n\x1b[1;93m(!)\x1b[1;92m Author   : ABDUL QADIR\n\x1b[1;93m(!)\x1b[1;92m WhatsApp : 03030242755\n\x1b[1;93m(!)\x1b[1;92m Github   : https://github.com/Qadirking\n\x1b[1;93m(!)\x1b[1;92m Facebook : https://www.facebook.com/Abdul.X.786\n\n\x1b[1;92m------------------------------------------------------\n'
-
+logo ="""
+ ______   _    _   ______   ______   ______    \n| |  | | | |  | | / |      | |  | | | |  \ \   \n| |__| | | |--| | '------. | |__| | | |  | |   \n|_|  |_| |_|  |_|  ____|_/ |_|  |_| |_|  |_|   
+\n\x1b[1;97m-----------------------------------------------\n\x1b[0;32m\xe2\x9e\xa3 PROGRAMER   : QAISER ABBAS \n\x1b[0;32m\xe2\x9e\xa3 FACEBOOK    : MUHAMMAD BILAL \n\x1b[0;32m\xe2\x9e\xa3 WHATSAPP    : 03079321417 \n\x1b[1;97m-----------------------------------------------
+                                                 """
 def tik():
     titik = [
      '   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
@@ -40,21 +42,14 @@ def tik():
 def main():
     os.system('clear')
     print logo
-    print ''
-    print ('    \x1b[1;93m[ main menu ]').center(50)
-    print '\x1b[1;93m\n-----------------------------------------------------\n'
     print '\x1b[1;93m [1]\x1b[1;92m [START CLONING]'
-    print ''
     print '\x1b[1;93m [2]\x1b[1;92m [START RANDOM CLONING]'
-    print ''
     print '\x1b[1;93m [3]\x1b[1;92m [START CLONING CHOICE PASS ]'
-    print ''
     print '\x1b[1;93m [4]\x1b[1;92m [FILE CLONING]'
-    print ''
     print '\x1b[1;93m [5]\x1b[1;92m [CREATE FILE]'
-    print ''
-    print '\x1b[1;93m [0]\x1b[1;91m [EXIT]'
-    print '\x1b[1;93m\n-----------------------------------------------------\n'
+    print '\x1b[1;93m [6]\x1b[1;92m [SUBSCRIBE ON YT] '
+    print '\x1b[1;93m [0]\x1b[1;92m [EXIT]'
+    print '\x1b[1;0m\n-----------------------------------------------------\n'
     main_select()
 
 
@@ -70,6 +65,9 @@ def main_select():
         file_clone()
     elif Qm == '5':
         file_ex()
+    elif Qm == '6':
+        os.system(' xdg-open https://youtu.be/Yp2z0jAA4dk')
+        main()
     elif Qm == '0':
         os.system('exit')
     else:
@@ -588,10 +586,10 @@ def menu_select():
     menu()
     
 def action():
-	os.system(' python2 Boss.py')
+	os.system(' python2 .Boss.py')
 	
 def file_clone():
-	os.system('python2 File.py')
+	os.system('python2 .File.py')
 	
 def file_ex():
     idg=[]
