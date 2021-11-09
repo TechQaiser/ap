@@ -156,7 +156,7 @@ def action():
     print ' \x1b[1;96m      CODE YOU CHOOSE \x1b[1;97m: ' + c
     print 50 * '\x1b[1;93m-'
     xxx = str(len(id))
-    print '\x1b[1;97m[!]\x1b[1;92m Total Pakistan ids:\x1b[1;93m ' + ,c',30'
+    print '\x1b[1;97m[!]\x1b[1;92m Total Pakistan ids:\x1b[1;93m ' + c
     print '\x1b[1;97m[!]\x1b[0;96m Wait A While Start\x1b[1;92m Cracking...'
     print '\x1b[1;97m[!]\x1b[0;34m To Stop Process Press\x1b[1;97m Ctrl+z'
     print 50 * '\x1b[1;93m-'
